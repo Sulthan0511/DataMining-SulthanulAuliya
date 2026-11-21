@@ -1,0 +1,33 @@
+DESKRIPSI KASUS DATASET PARTNER
+
+Nama Partner : Achmad Herdifan Aydil Pratama
+NIM Partner  : 3022410036
+Nama Penerima: Sulthanul Auliya
+NIM Penerima : 3022410045
+
+Judul Kasus:
+Analisis dan Persiapan Data Mahasiswa Berdasarkan Karakteristik, Tingkat Kepuasan, Aktivitas LMS, dan Nilai Akademik
+
+Deskripsi Kasus:
+Dataset yang diterima memuat data mahasiswa dengan atribut identitas mahasiswa, nama mahasiswa, program studi, tingkat kepuasan, usia, tinggi badan, uang saku bulanan, jumlah login ke Learning Management System (LMS), dan nilai akhir. Data tersebut dapat digunakan sebagai bahan awal untuk memahami karakteristik mahasiswa, melihat variasi tingkat kepuasan, serta mempelajari aktivitas mahasiswa pada LMS dan kaitannya dengan nilai akademik.
+
+Tujuan Preprocessing:
+Preprocessing dilakukan untuk memeriksa dan meningkatkan kualitas dataset sebelum digunakan pada tahap analisis Data Mining. Kegiatan yang relevan meliputi pemeriksaan struktur data, identifikasi dan penanganan data duplikat, pembersihan kesalahan penulisan dan spasi, penyamaan satuan tinggi badan, penyesuaian format uang saku menjadi numerik, pemeriksaan nilai yang tidak masuk akal, penanganan missing value, pemeriksaan outlier melalui histogram dan boxplot, serta transformasi data melalui normalisasi dan encoding.
+
+Deskripsi Variabel:
+1. ID_Mahasiswa: kode identitas mahasiswa.
+2. Nama_Mahasiswa: nama mahasiswa.
+3. Program_Studi: program studi mahasiswa.
+4. Tingkat_Kepuasan: kategori tingkat kepuasan mahasiswa (Rendah, Sedang, atau Tinggi setelah standardisasi).
+5. Usia: usia mahasiswa dalam tahun.
+6. Tinggi_Badan: tinggi badan mahasiswa; terdapat nilai yang perlu diseragamkan ke sentimeter.
+7. Uang_Saku_Bulanan: jumlah uang saku mahasiswa per bulan.
+8. Jumlah_Login_LMS: jumlah aktivitas login mahasiswa pada LMS.
+9. Nilai_Akhir: nilai akhir mahasiswa.
+
+Karakteristik Dataset Saat Diterima:
+- Format file: CSV.
+- Jumlah baris awal: 105 baris.
+- Jumlah variabel: 9 kolom.
+- Memuat variabel kategorik dan numerik.
+- Ditemukan data kosong, baris duplikat, variasi kapitalisasi dan penulisan kategori, spasi berlebih, perbedaan satuan tinggi badan, format uang saku yang belum seragam, serta beberapa nilai yang perlu divalidasi.
